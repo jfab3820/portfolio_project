@@ -6,6 +6,6 @@ export default function Section({
   children,
 }) {
   return (
-    <Tag className={`py-16 sn:py-20 lg:py-24 }${className}`}>{children}</Tag>
+    <Tag className={`py-16 sn:py-20 lg:py-24 } ${className}`}>{children}</Tag>
   );
 }
