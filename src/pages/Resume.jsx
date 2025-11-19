@@ -1,8 +1,11 @@
 import Section from "../components/ui/Section.jsx";
 import Container from "../components/ui/Container.jsx";
+import SEO from "../components/ui/SEO.jsx";
 
 export default function Resume() {
   return (
+    <>
+    <SEO title="My Resume" description="Download or view my resume" url="/resume" />
     <Section>
       <Container>
         <h1 className="heading-page">My Resume</h1>
@@ -65,5 +68,6 @@ export default function Resume() {
         </div>
       </Container>
     </Section>
+    </>
   );
 }

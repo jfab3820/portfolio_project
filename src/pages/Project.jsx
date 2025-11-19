@@ -74,19 +74,22 @@ export default function Project() {
               loading="lazy"
             />
           </div>
+          {/* Project Details */}
           <div>
             <h2 className="subheading-primary">Overview</h2>
             <p className="mt-2 body-default">
-              Replace this with a short case study: problem, your role, tools,
-              constraints, outcome.
+              {project.overview || "No overview available for this project."}
             </p>
-
-            <h3 className="mt-6 font-semibold">Highlights</h3>
-            <ul className="mt-2 list-disc pl-5 body-default space-y-1">
-              <li>Goal / KPI impact</li>
-              <li>Key UX or dev contribution</li>
-              <li>Notable constraint or insight</li>
-            </ul>
+            {project.highlights && project.highlights.length > 0 && (
+              <>
+                <h3 className="mt-6 font-semibold">Highlights</h3>
+                <ul className="mt-2 list-disc pl-5 body-default space-y-1">
+                  {project.highlights.map((highlight, index) => (
+                    <li key={index}>{highlight}</li>
+                  ))}
+                </ul>
+              </>
+            )}
           </div>
         </div>
       </Container>
