@@ -64,7 +64,7 @@ export default function Resume() {
             {/* Simple iframe PDF viewer as a workaround */}
             <div className="w-full h-[800px] border border-gray-300 rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="/resume-sample.pdf"
+                src="/Johnathan_Falbo_Resume_2025.pdf"
                 className="w-full h-full"
                 title="Resume PDF"
               />
