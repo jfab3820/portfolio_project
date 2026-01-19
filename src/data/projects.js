@@ -1,18 +1,18 @@
 export const projects = [
   {
-    id: "greyhound_mobile_app",
-    title: "Greyhound Mobile App",
+    id: "first_mobile_app",
+    title: "First Mobile App",
     blurb:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis.",
     image: "https://picsum.photos/300?random=1",
-    href: "/portfolio/greyhound_mobile_app",
+    href: "/portfolio/first_mobile_app",
     overview: "This is where an overview of the project would go",
     highlights: [
       "Developed a cross-platform mobile application using React Native.",
     ],
     role: "Front-end Developer",
     tools: ["React Native", "JavaScript", "Expo"],
-    client: "Greyhound, Inc.",
+    client: "Example, Inc.",
   },
   {
     id: "podbridge_mobile_app",
