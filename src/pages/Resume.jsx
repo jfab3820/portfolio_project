@@ -17,8 +17,8 @@ export default function Resume() {
           {/* Action Buttons */}
           <div className="mt-6 flex flex-wrap gap-4 justify-center">
             <a
-              href="/resume-sample.pdf"
-              download="resume-sample.pdf"
+              href="/Johnathan_Falbo_Resume_2026.PDF"
+              download="Johnathan_Falbo_Resume_2026.PDF"
               className="inline-flex items-center px-6 py-3 bg-primary-500 hover:bg-primary-600 text-white rounded-lg transition-colors shadow-md hover:shadow-lg"
             >
               <svg
@@ -38,7 +38,7 @@ export default function Resume() {
             </a>
 
             <a
-              href="/Johnathan_Falbo_Resume_2025.pdf"
+              href="/Johnathan_Falbo_Resume_2026.PDF"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gray-700 hover:bg-gray-800 text-white rounded-lg transition-colors shadow-md hover:shadow-lg"
@@ -64,7 +64,7 @@ export default function Resume() {
             {/* Simple iframe PDF viewer as a workaround */}
             <div className="w-full h-[800px] border border-gray-300 rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="/Johnathan_Falbo_Resume_2025.pdf"
+                src="/Johnathan_Falbo_Resume_2026.PDF"
                 className="w-full h-full"
                 title="Resume PDF"
               />
