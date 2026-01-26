@@ -9,7 +9,7 @@ export default function Projects({
   limit,
   showViewMore = true,
   title = "My Portfolio",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla interdum urna quis magna lobortis, eget finibus urna vestibulum. Sed nec ex non justo dictum venenatis. Fusce nec purus nec mauris posuere malesuada",
+  description = "These projects showcase my hands-on experience with modern frontend development, responsive design, and clean, maintainable code.",
   headingLevel = "h2",
   headingId = "projects-heading",
 }) {
@@ -29,10 +29,18 @@ export default function Projects({
         </header>
 
         {/* Grid layout */}
-        <ul className="mt-8 grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3" role="list">
+        <ul
+          className="mt-8 grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+          role="list"
+        >
           {displayedProjects.map((p) => (
             <li key={p.id}>
-              <ProjectCard image={p.image} title={p.title} blurb={p.blurb} href={p.href} />
+              <ProjectCard
+                image={p.image}
+                title={p.title}
+                blurb={p.blurb}
+                href={p.href}
+              />
             </li>
           ))}
         </ul>
